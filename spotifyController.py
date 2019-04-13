@@ -16,8 +16,8 @@ SPOTIFY_API_BASE_URL = "https://api.spotify.com"
 API_VERSION = "v1"
 SPOTIFY_API_URL = "{}/{}".format(SPOTIFY_API_BASE_URL, API_VERSION)
 
-CLIENT_ID = 'ffbf57e77cdc4d1f98b80bce63e16341'
-CLIENT_SECRET = '1e612801fe654e4b956b07448461ee67'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
 CLIENT_SIDE_URL = "http://localhost"
 PORT = 5000
 REDIRECT_URI = "{}:{}/callback".format(CLIENT_SIDE_URL, PORT)
